@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Milan Zerbin</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Milan Zerbin</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-uk</language>
+    <lastBuildDate>Mon, 28 Jul 2025 11:22:55 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Workshop AI Transforms Math Research</title>
+      <link>http://localhost:1313/activities/a-1/</link>
+      <pubDate>Mon, 28 Jul 2025 11:22:55 +0200</pubDate>
+      <guid>http://localhost:1313/activities/a-1/</guid>
+      <description>Organizer with Kai Cieliebak From 25. to 29. of August 2025, we will host a workshop on the use of AI tools in mathematical research in Augsburg, Germany.</description>
+    </item>
+  </channel>
+</rss>

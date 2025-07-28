@@ -1,0 +1,21 @@
+baseURL : 'https://milanzerbin.github.io/'
+languageCode : 'en-uk'
+title : 'Milan Zerbin'
+theme : 'hfng'
+
+caches:
+  images:
+    dir: :cacheDir/images
+
+menu:
+  main:
+    - name: Homepage
+      url: "https://milanzerbin.github.io/"
+      weight: 5
+    - name: Talks
+      url: talks/
+      weight: 10
+    - name: Activities
+      url: activities/
+      weight: 15
+
