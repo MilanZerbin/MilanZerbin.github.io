@@ -27,7 +27,7 @@ params:
 
   # Startpage Portrait
   portrait:
-    path: images/myimg.jpg
+    path: "myimg.jpg"
     alt: Portrait
     maxWidth: 50px
 
