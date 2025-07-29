@@ -7,15 +7,62 @@ caches:
   images:
     dir: :cacheDir/images
 
+params: 
+  # metadata
+  author: 
+    name: Milan Zerbin
+  description: Homepage of Milan Zerbin
+
+  # content
+  homeSubtitle: 'PhD Student in Mathematics'
+  enableSharingButtons: false # sharing buttons
+  enableThemeToggle: true # night/dark mode toggle
+
+  # Homelogo
+  logo:
+    logoCursorDisabled: true # remove blinking cursor
+    logoHomeLink: / # link to homepage
+    logoMark: $
+    logoText: cd ~
+
+  # Startpage Portrait
+  portrait:
+    path: images/myimg.jpg
+    alt: Portrait
+    maxWidth: 50px
+
+  # social icons under portrait
+  social:
+    - name: Email
+      url: mailto:milan.zerbin@uni-a.de
+    - name: GitHub
+      url: https://github.com/MilanZerbin
+  
+  contact:
+    email: milan.zerbin@uni-a.de
+    phone: +49 821 598 5795
+
+
 menu:
   main:
-    - name: Homepage
-      url: "https://milanzerbin.github.io/"
+    - name: About
+      url: about/
       weight: 5
+    - name: University Page
+      url: "https://www.uni-augsburg.de/en/fakultaet/mntf/math/prof/geom/team/milan-zerbin/"
+    - name: Materials
+      url: stuff/
+      weight: 20
     - name: Talks
       url: talks/
       weight: 10
     - name: Activities
       url: activities/
       weight: 15
+
+# prevent hugo bug
+taxonomies:
+  tag: tags
+  category: categories
+
 
