@@ -27,9 +27,9 @@ params:
 
   # Startpage Portrait
   portrait:
-    path: "myimg.jpg"
+    path: "/me_beach.jpg"
     alt: Portrait
-    maxWidth: 50px
+    maxWidth: 300px
 
   # social icons under portrait
   social:
@@ -53,9 +53,6 @@ menu:
     - name: Materials
       url: stuff/
       weight: 20
-    - name: Talks
-      url: talks/
-      weight: 10
     - name: Activities
       url: activities/
       weight: 15
