@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Milan Zerbin</title>
-    <link>http://localhost:1313/</link>
+    <link>https://milanzerbin.github.io/</link>
     <description>Recent content on Milan Zerbin</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
-    <lastBuildDate>Tue, 01 Oct 2024 00:00:00 +0200</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 25 Aug 2025 09:30:00 +0200</lastBuildDate>
+    <atom:link href="https://milanzerbin.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Masterthesis</title>
-      <link>http://localhost:1313/activities/masterthesis/</link>
-      <pubDate>Tue, 01 Oct 2024 00:00:00 +0200</pubDate>
-      <guid>http://localhost:1313/activities/masterthesis/</guid>
-      <description>My masterthesis was on the topic &amp;ldquo;spaces of positive curvature metrics on nonorientable manifolds&amp;rdquo;. You can find a pdf version here and the entire LaTeX-Code in the Git-Repository.</description>
+      <title>Workshop: AImath</title>
+      <link>https://milanzerbin.github.io/activities/workshop-aimath/</link>
+      <pubDate>Mon, 25 Aug 2025 09:30:00 +0200</pubDate>
+      <guid>https://milanzerbin.github.io/activities/workshop-aimath/</guid>
+      <description>Workshop: AI Transoforms Math Research During the week 25-28 August 2025, Kai Cieliebak and i will host a workshop on the use of AI tools in mathematical research in Augsburg, Germany.&#xA;You can check out more details on the workshop website.&#xA;Feel free to join!</description>
     </item>
     <item>
-      <title>About Me</title>
-      <link>http://localhost:1313/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/about/</guid>
-      <description>currently I am a PhD Student of Kai Cieliebak at University of Augsburg, Germany. I am generally interested in algebraic and differential topology, lately my new focus lies on String Topology as well as Piecewise Linear Symplectic Geometry. See my past research projects for an overview of what i have done before.</description>
+      <title>Masterthesis</title>
+      <link>https://milanzerbin.github.io/activities/masterthesis/</link>
+      <pubDate>Tue, 01 Oct 2024 00:00:00 +0200</pubDate>
+      <guid>https://milanzerbin.github.io/activities/masterthesis/</guid>
+      <description>My masterthesis was on the topic &amp;ldquo;spaces of positive curvature metrics on nonorientable manifolds&amp;rdquo;. You can find a pdf version here and the entire LaTeX-Code in the Git-Repository.</description>
     </item>
   </channel>
 </rss>

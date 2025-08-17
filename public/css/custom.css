@@ -1,0 +1,30 @@
+/* Two-column Activities layout with aligned headings */
+
+.posts-group-container {
+  display: flex;
+  align-items: flex-start;   /* top edges line up */
+  gap: 2rem;                  /* horizontal space between columns */
+
+  @media #{$media-size-tablet} {
+    flex-direction: column;   /* stack columns on small devices */
+    gap: 0;
+  }
+}
+
+.posts-group {
+  flex: 1 1 0;                 /* equal widths, shrink/grow evenly */
+  min-width: 0;                /* prevent overflow */
+  display: flex;
+  flex-direction: column;      /* lets us stretch inner list */
+}
+
+.posts-group > .post-year {
+  margin-bottom: 1rem;         /* space between heading and list */
+}
+
+.posts-list {
+  flex: 1;                     /* stretch list to match sibling column height */
+  display: flex;
+  flex-direction: column;
+  gap: 0;                      /* inherit theme’s own item spacing */
+}

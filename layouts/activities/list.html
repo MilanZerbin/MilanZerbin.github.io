@@ -1,0 +1,56 @@
+{{ define "main" }}
+<main class="posts">
+        <h1>{{ .Title }}</h1>
+
+        {{ if .Content }}
+            <div class="content">{{ .Content }}</div>
+        {{ end }}
+
+<main class="posts activities">
+  <div class="posts-group-container">
+
+    <!-- Past Activities -->
+    <div class="posts-group">
+      <div class="post-year">{{ i18n "past" | default "Past" }}</div>
+      <ul class="posts-list">
+        {{ range where .Pages "Params.date" "lt" now }}
+          <li class="post-item">
+            <a href="{{ .RelPermalink }}" class="post-item-inner">
+              <span class="post-title">{{ .Title }}</span>
+              {{ with .Date }}<span class="post-meta">{{ .Format "Jan 2, 2006" }}</span>{{ end }}
+            </a>
+          </li>
+        {{ else }}
+          <li class="post-item">
+            <div class="post-item-inner">
+              <span class="post-title">{{ i18n "no_past" | default "No past activities" }}</span>
+            </div>
+          </li>
+        {{ end }}
+      </ul>
+    </div>
+    
+    <!-- Upcoming Activities -->
+    <div class="posts-group">
+      <div class="post-year">{{ i18n "upcoming" | default "Upcoming" }}</div>
+      <ul class="posts-list">
+        {{ range where .Pages "Params.date" "ge" now }}
+          <li class="post-item">
+            <a href="{{ .RelPermalink }}" class="post-item-inner">
+              <span class="post-title">{{ .Title }}</span>
+              {{ with .Date }}<span class="post-meta">{{ .Format "Jan 2, 2006" }}</span>{{ end }}
+            </a>
+          </li>
+        {{ else }}
+          <li class="post-item">
+            <div class="post-item-inner">
+              <span class="post-title">{{ i18n "no_upcoming" | default "No upcoming activities" }}</span>
+            </div>
+          </li>
+        {{ end }}
+      </ul>
+    </div>
+
+  </div>
+</main>
+{{ end }}

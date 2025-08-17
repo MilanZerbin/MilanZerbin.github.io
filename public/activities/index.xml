@@ -1,18 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Activities on Milan Zerbin</title>
-    <link>http://localhost:1313/activities/</link>
-    <description>Recent content in Activities on Milan Zerbin</description>
+    <title>Milan Zerbin</title>
+    <link>https://milanzerbin.github.io/activities/</link>
+    <description>Recent content on Milan Zerbin</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
-    <lastBuildDate>Tue, 01 Oct 2024 00:00:00 +0200</lastBuildDate>
-    <atom:link href="http://localhost:1313/activities/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 25 Aug 2025 09:30:00 +0200</lastBuildDate>
+    <atom:link href="https://milanzerbin.github.io/activities/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Workshop: AImath</title>
+      <link>https://milanzerbin.github.io/activities/workshop-aimath/</link>
+      <pubDate>Mon, 25 Aug 2025 09:30:00 +0200</pubDate>
+      <guid>https://milanzerbin.github.io/activities/workshop-aimath/</guid>
+      <description>Workshop: AI Transoforms Math Research During the week 25-28 August 2025, Kai Cieliebak and i will host a workshop on the use of AI tools in mathematical research in Augsburg, Germany.&#xA;You can check out more details on the workshop website.&#xA;Feel free to join!</description>
+    </item>
     <item>
       <title>Masterthesis</title>
-      <link>http://localhost:1313/activities/masterthesis/</link>
+      <link>https://milanzerbin.github.io/activities/masterthesis/</link>
       <pubDate>Tue, 01 Oct 2024 00:00:00 +0200</pubDate>
-      <guid>http://localhost:1313/activities/masterthesis/</guid>
+      <guid>https://milanzerbin.github.io/activities/masterthesis/</guid>
       <description>My masterthesis was on the topic &amp;ldquo;spaces of positive curvature metrics on nonorientable manifolds&amp;rdquo;. You can find a pdf version here and the entire LaTeX-Code in the Git-Repository.</description>
     </item>
   </channel>
