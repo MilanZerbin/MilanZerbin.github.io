@@ -2,6 +2,7 @@
 title = 'Workshop: AImath'
 date = 2025-08-25T09:30:00+02:00
 draft = false
+tags = ['events']
 +++
 
 ## AI Transforms Math Research

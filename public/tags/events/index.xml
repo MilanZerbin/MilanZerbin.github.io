@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Milan Zerbin</title>
-    <link>https://milanzerbin.github.io/</link>
-    <description>Recent content on Milan Zerbin</description>
+    <title>Events on Milan Zerbin</title>
+    <link>https://milanzerbin.github.io/tags/events/</link>
+    <description>Recent content in Events on Milan Zerbin</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
     <lastBuildDate>Mon, 25 Aug 2025 09:30:00 +0200</lastBuildDate>
-    <atom:link href="https://milanzerbin.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://milanzerbin.github.io/tags/events/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Workshop: AImath</title>
       <link>https://milanzerbin.github.io/activities/workshop-aimath/</link>
@@ -21,13 +21,6 @@
       <pubDate>Mon, 16 Jun 2025 08:00:00 +0200</pubDate>
       <guid>https://milanzerbin.github.io/activities/cime-workshop/</guid>
       <description>Symplectic Dynamics and Topology During the week 16-20 of June 2025, i had the pleasure to attend a wonderful summerschool in the pittoresque Gran Hotel San Michele in Calabria, Italy.&#xA;Next to meeting loads of inspiring young researchers of the symplectic world and beyond, no matter my limited understanding i had a great time listening to the four lecture series held there:&#xA;Marie-Claude Arnaud: Conformal symplectic dynamics Viktor Ginzburg: Symplectic dynamics Michael Hutchings: Low dimensional symplectic dynamics Claude Viterbo: Completion of the set of Lagrangians and applications to dynamics At your own risk: Clicking on any of the lecture series guides you to the download of my hardly readable chaotic handwritten notes from their talks.</description>
-    </item>
-    <item>
-      <title>Masterthesis</title>
-      <link>https://milanzerbin.github.io/activities/masterthesis/</link>
-      <pubDate>Tue, 01 Oct 2024 00:00:00 +0200</pubDate>
-      <guid>https://milanzerbin.github.io/activities/masterthesis/</guid>
-      <description>My masterthesis was on the topic &amp;ldquo;spaces of positive curvature metrics on nonorientable manifolds&amp;rdquo;. You can find a pdf version here and the entire LaTeX-Code in the Git-Repository.</description>
     </item>
   </channel>
 </rss>

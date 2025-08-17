@@ -6,8 +6,15 @@
     <description>Recent content in Tags on Milan Zerbin</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
-    <lastBuildDate>Tue, 01 Oct 2024 00:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 25 Aug 2025 09:30:00 +0200</lastBuildDate>
     <atom:link href="https://milanzerbin.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Events</title>
+      <link>https://milanzerbin.github.io/tags/events/</link>
+      <pubDate>Mon, 25 Aug 2025 09:30:00 +0200</pubDate>
+      <guid>https://milanzerbin.github.io/tags/events/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Projects</title>
       <link>https://milanzerbin.github.io/tags/projects/</link>
