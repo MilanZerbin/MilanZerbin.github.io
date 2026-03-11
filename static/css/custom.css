@@ -80,6 +80,16 @@
   flex-shrink: 0;
 }
 
+/* Ensure tag dots inside Markdown lists are visible */
+li .tag-dot {
+  display: inline-block;
+  width: 0.6em;
+  height: 0.6em;
+  border-radius: 50%;
+  margin-right: 0.4em;
+  vertical-align: middle;
+}
+
 /* Colors */
 .tag-events  { background: #4CAF50; }
 .tag-projects { background: #2196F3; }
