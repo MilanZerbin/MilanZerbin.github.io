@@ -1,8 +1,9 @@
 +++
 title = 'Blockseminar'
+subtitle = 'H-principles and Convex Integration'
 date = 2022-05-01T08:00:00+02:00
 draft = false
-tags = ['events']
+tags = ['events', 'talks']
 +++
 
 ## H-principles and Convex Integration

@@ -1,8 +1,9 @@
 +++
 title = 'Blockseminar'
+subtitle = 'The Nash--Moser Inverse Function Theorem'
 date = 2023-06-18T08:00:00+02:00
 draft = false
-tags = ['events']
+tags = ['events', 'talks']
 +++
 
 ## The Nash--Moser Inverse Function Theorem

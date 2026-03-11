@@ -1,5 +1,6 @@
 +++
-title = 'Workshop: AImath'
+title = 'Workshop'
+subtitle = 'AI Transforms Math Research'
 date = 2025-08-25T09:30:00+02:00
 draft = false
 tags = ['events']

@@ -1,8 +1,9 @@
 +++
 title = 'Blockseminar'
+subtitle = 'Ricci Flow and the Sphere-Theorem'
 date = 2025-06-10T08:00:00+02:00
 draft = false
-tags = ['events']
+tags = ['events', 'talks']
 +++
 
 ## Ricci Flow and the sphere-theorem
@@ -17,7 +18,6 @@ You can find the schedule of the Seminar [here](/bs/four/plan.pdf).
 The seminar was organized by [Christian Bär](https://www.math.uni-potsdam.de/baer) and [Bernhard Hanke](https://www.uni-augsburg.de/de/fakultaet/mntf/math/prof/diff/team/bernhard-hanke/) with help from Lennard Ronge.
 
 Talks were to be given via document camera by writing on paper.
-Talks are given via document camera by writing on paper. 
 The writings from all talks are usually then digitized with a scanner, at some point i will append them on this page.
 
 

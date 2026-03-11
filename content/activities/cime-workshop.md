@@ -1,5 +1,6 @@
 +++
 title = 'C.I.M.E Summerschool'
+subtitle = 'Symplectic Dynamics and Topology'
 date = 2025-06-16T08:00:00+02:00
 draft = false
 tags = ['events']
