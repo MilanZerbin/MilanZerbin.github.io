@@ -1,0 +1,56 @@
+{{ define "main" }}
+<main class="posts activities">
+
+  <h1>{{ .Title }}</h1>
+
+  {{ if .Content }}
+    <div class="content">{{ .Content }}</div>
+  {{ end }}
+
+  {{ if eq .Section "activities" }}
+
+    <!-- ========================= -->
+    <!--   ACTIVITIES LAYOUT      -->
+    <!-- ========================= -->
+
+    <!-- Upcoming -->
+    <div class="posts-group">
+      <div class="post-year">Upcoming</div>
+      <ul class="posts-list">
+        {{ range where .Pages "Params.date" "ge" now }}
+          {{ partial "list-item.html" . }}
+        {{ else }}
+          <li class="post-item"><div class="post-item-inner">No upcoming activities</div></li>
+        {{ end }}
+      </ul>
+    </div>
+
+    <!-- Past -->
+    <div class="posts-group">
+      <div class="post-year">Past</div>
+      <ul class="posts-list">
+        {{ range where .Pages "Params.date" "lt" now }}
+          {{ partial "list-item.html" . }}
+        {{ else }}
+          <li class="post-item"><div class="post-item-inner">No past activities</div></li>
+        {{ end }}
+      </ul>
+    </div>
+
+  {{ else }}
+
+    <!-- ========================= -->
+    <!--   GENERIC LIST LAYOUT    -->
+    <!-- ========================= -->
+
+    <ul class="posts-list">
+      {{ range .Pages }}
+        {{ partial "list-item.html" . }}
+      {{ end }}
+    </ul>
+
+  {{ end }}
+
+</main>
+{{ end }}
+
