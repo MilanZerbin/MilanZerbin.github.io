@@ -1,4 +1,4 @@
-/* Two-column Activities layout with aligned headings */
+/* Activities layout with aligned headings */
 
 .posts-group-container {
   display: flex;
@@ -28,3 +28,59 @@
   flex-direction: column;
   gap: 0;                      /* inherit theme’s own item spacing */
 }
+
+/* Fix alignment */
+.post-item-inner {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75em;
+}
+
+.post-meta {
+  margin-left: auto;
+  text-align: right;
+  white-space: nowrap;
+}
+
+/* Title + subtitle vertical stack */
+.post-text {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Subtitle styling */
+.post-subtitle {
+  font-size: 0.9em;
+  color: #888;
+  margin-top: 0.1em;
+}
+
+/* Left block: dots + title/subtitle */
+.post-left {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5em;
+  min-width: 0; /* prevents flex overflow */
+}
+
+
+/* Dots container: fixed width so titles line up */
+.tag-dots {
+  display: flex;
+  gap: 0.25em;
+  margin-top: 0.6em;      /* vertically align with title */
+  width: 2.2rem;          /* <- key: fixed width */
+  flex-shrink: 0;
+}
+
+.tag-dot {
+  width: 0.6em;
+  height: 0.6em;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+/* Colors */
+.tag-events  { background: #4CAF50; }
+.tag-projects { background: #2196F3; }
+.tag-talks   { background: #FF9800; }
