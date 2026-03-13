@@ -55,8 +55,8 @@ menu:
       weight: 5
     - name: University Page
       url: "https://www.uni-augsburg.de/en/fakultaet/mntf/math/prof/geom/team/milan-zerbin/"
-    - name: Materials
-      url: stuff/
+    - name: Teaching
+      url: teaching/
       weight: 20
     - name: Activities
       url: activities/
