@@ -1,6 +1,6 @@
 +++
 title = 'Talk'
-subtitle = 'Göttingen'
+subtitle = 'Mathematisches Institut Göttingen'
 date = 2024-11-26T11:30:00+02:00
 draft = false
 tags = ['talks']

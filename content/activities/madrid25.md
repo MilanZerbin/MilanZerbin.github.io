@@ -1,6 +1,6 @@
 +++
 title = 'Talk'
-subtitle = 'Madrid'
+subtitle = 'ICMAT Madrid'
 date = 2025-04-30T10:00:00+02:00
 draft = false
 tags = ['talks']
