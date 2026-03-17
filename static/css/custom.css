@@ -1,3 +1,18 @@
+/* Custom Color sheme */
+:root {
+  --accent: #75B9BE;
+  --accentt: #947EB0;
+  --accenttt: #6A8D73;
+  --accentttt: #F6E27F;
+  /*
+  --background: #yourColor;
+  --foreground: #yourColor;
+  --secondary: #yourColor;
+  */
+}
+
+
+
 /* Activities layout with aligned headings */
 
 .posts-group-container {
@@ -91,10 +106,10 @@ li .tag-dot {
 }
 
 /* Colors */
-.tag-events  { background: #4CAF50; }
-.tag-projects { background: #2196F3; }
-.tag-talks   { background: #FF9800; }
-.tag-tutor  { background: #4CAF50; }
-.tag-ta { background: #2196F3; }
-.tag-mentor   { background: #FF9800; }
-.tag-prof   { background: #FF9800; }
+.tag-events  { background: var(--accenttt); }
+.tag-projects { background: var(--accentt); }
+.tag-talks   { background: var(--accentttt); }
+.tag-tutor  { background: var(--accent); }
+.tag-ta { background: var(--accentt); }
+.tag-mentor   { background: var(--accenttt); }
+.tag-prof   { background: var(--accentttt); }
