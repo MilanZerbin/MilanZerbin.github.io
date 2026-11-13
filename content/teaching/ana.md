@@ -27,7 +27,7 @@ As the course is going on, i will continue gradually adding the course materials
 
 ### Quizzes
 
-You find all past tutorial session quizzes here. An even greater selection of the quizquestions is found at [this website](analysisquiz.de) where you can interactively play the tutorial quiz game.
+You find all past tutorial session quizzes here. An even greater selection of the quizquestions is found at [this website](https://www.analysisquiz.de) where you can interactively play the tutorial quiz game.
 
  - [Quiz 1](/teaching/ana26/tut0.pdf)
  - [Quiz 2](/teaching/ana26/tut1.pdf)
